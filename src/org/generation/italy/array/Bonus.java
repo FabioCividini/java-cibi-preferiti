@@ -10,13 +10,13 @@ public class Bonus {
 		System.out.println("Numero totale classifica dei cibi preferiti: " + classificaCibi.length);
 				
 		//stampare il cibo top tra i preferiti
-		System.out.println("Cibo top: " + classificaCibi[0]);
+		System.out.println("Cibo top: " + classificaCibi[classificaCibi.length *0]);
 				
 		//stampare il cibo meno top tra i preferiti
-		System.out.println("Cibo meno top: " + classificaCibi[8]);
+		System.out.println("Cibo meno top: " + classificaCibi[classificaCibi.length -1]);
 		
 		//stampare il cibo di metà classifica
-		System.out.println("Cibo di metà classifica: " + classificaCibi[4]);
+		System.out.println("Cibo di metà classifica: " + classificaCibi[classificaCibi.length /2]);
 
 	}
 

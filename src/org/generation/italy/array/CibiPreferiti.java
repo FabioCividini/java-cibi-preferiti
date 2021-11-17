@@ -9,7 +9,8 @@ public class CibiPreferiti {
 		//lunghezza della classifica
 		System.out.println("Numero totale classifica dei cibi preferiti: " + classificaCibi.length);
 		
-		
+		//stampare il cibo top tra i preferiti
+		System.out.println("Cibo top: " + classificaCibi[0]);
 	}
 
 }

@@ -7,7 +7,6 @@ public class CibiPreferiti {
 		String[] classificaCibi = {"Pizza" ,"Cozza gratinate" ,"Carbonara" ,"Astice" ,"Grigliata di carne" ,"Sushi" ,"Grigliata di pesce" ,"Formaggio e miele" ,"Risotto pere taleggio"};
 		
 		//lunghezza della classifica
-		int lunghezzaClassifica = classificaCibi.length;
 		System.out.println("Numero totale classifica dei cibi preferiti: " + classificaCibi.length);
 		
 		//stampare il cibo top tra i preferiti

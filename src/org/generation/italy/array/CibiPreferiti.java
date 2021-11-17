@@ -14,9 +14,6 @@ public class CibiPreferiti {
 		
 		//stampare il cibo meno top tra i preferiti
 		System.out.println("Cibo meno top: " + classificaCibi[8]);
-		
-		//stampare il cibo di metà classifica
-		System.out.println("Cibo di metà classifica: " + classificaCibi[4]);
 	}
 
 }
